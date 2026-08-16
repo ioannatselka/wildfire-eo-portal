@@ -1,0 +1,13 @@
+# Secrets - ΠΟΤΕ στο GitHub
+.streamlit/secrets.toml
+!package.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

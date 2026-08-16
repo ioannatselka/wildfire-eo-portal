@@ -1,0 +1,51 @@
+{
+  "sentinel2": {
+    "collection": "COPERNICUS/S2_SR_HARMONIZED",
+    "max_cloud": 5
+  },
+
+
+  "demo_scenarios": {
+    "Porto Germeno 2026": {
+      "name": "Porto Germeno 2026",
+      "start_date": "July 31, 2026",
+      "end_date": "August 05, 2026",
+      "geometry": {
+        "type": "bbox",
+        "west": 22.75,
+        "south": 37.91,
+        "east": 23.48,
+        "north": 38.36
+      },
+      "pre-fire": {"start": "2026-07-20", "end": "2026-07-30"},
+      "post-fire": {"start": "2026-08-06", "end": "2026-08-14"}
+    },
+    "Chios 2025": {
+      "name": "Chios 2025",
+      "start_date": "June 22, 2025",
+      "end_date": "June 25, 2025",
+      "geometry": {
+        "type": "bbox",
+        "west": 25.84,
+        "south": 38.27,
+        "east": 26.24,
+        "north": 38.42
+      },
+      "pre-fire": {"start": "2025-06-01", "end": "2025-06-20"},
+      "post-fire": {"start": "2025-06-26", "end": "2025-07-10"}
+    },
+    "Varnavas 2024": {
+      "name": "Varnavas 2024",
+      "start_date": "August 11, 2024",
+      "end_date": "August 13, 2024",
+      "geometry": {
+        "type": "point_buffer",
+        "lon": 23.90,
+        "lat": 38.16,
+        "buffer_m": 16000
+      },
+      "pre-fire": {"start": "2024-07-29", "end": "2024-08-10"},
+      "post-fire": {"start": "2024-08-14", "end": "2024-08-24"}
+    }
+  }
+}
