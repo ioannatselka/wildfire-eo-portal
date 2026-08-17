@@ -24,3 +24,22 @@ Custom AOI drawing tool:
 - Burned area statistics by burn severity and land cover (ESA WorldCover)
 - Interactive polygon/rectangle drawing for custom AOIs
 - Pre-configured scenarios for wildfire events
+
+## Project structure 
+
+```
+wildfire-eo-portal/
+├── app.py
+├── pages/
+│ ├── demo_cases.py
+│ └── interactive_analysis.py
+├── src/
+│ ├── data_loader.py
+│ ├── indices.py
+│ ├── classify.py
+│ └── stats.py
+├── data/
+│ └── demo_scenarios.json
+└── assets/
+```
+
