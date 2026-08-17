@@ -43,3 +43,21 @@ wildfire-eo-portal/
 └── assets/
 ```
 
+## Running locally
+
+```bash
+git clone https://github.com/ioannatselka/wildfire-eo-portal.git
+cd wildfire-eo-portal
+pip install -r requirements.txt
+```
+
+Requires a Google Earth Engine account and registered Cloud project. Create `.streamlit/secrets.toml`:
+
+```toml
+[earth_engine]
+project_id = "your-gee-project-id"
+```
+
+```bash
+streamlit run app.py
+```
