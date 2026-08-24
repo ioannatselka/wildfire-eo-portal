@@ -1,7 +1,7 @@
 {
   "sentinel2": {
     "collection": "COPERNICUS/S2_SR_HARMONIZED",
-    "max_cloud": 5
+    "max_cloud": 10
   },
 
   "demo_scenarios": {
