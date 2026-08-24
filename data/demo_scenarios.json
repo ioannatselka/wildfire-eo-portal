@@ -120,13 +120,12 @@
       "start_date": "September 29, 2024",
       "end_date": "October 02, 2024",
       "geometry": {
-        "type": "bbox",
-        "west": 22.35,
-        "south": 37.98,
-        "east": 22.55,
-        "north": 38.17
+        "type": "point_buffer",
+        "lon": 22.48,
+        "lat": 38.12,
+        "buffer_m": 16000
       },
-      "pre-fire": {"start": "2024-09-14", "end": "2024-09-21"},
+      "pre-fire": {"start": "2024-09-14", "end": "2024-09-28"},
       "post-fire": {"start": "2024-10-03", "end": "2024-10-15"}
     },
     "Varnavas 2024": {
