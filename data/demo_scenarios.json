@@ -163,7 +163,7 @@
         "type": "point_buffer",
         "lon": 27.94,
         "lat": 36.17,
-        "buffer_m": 19000
+        "buffer_m": 20000
       },
       "pre-fire": {"start": "2023-07-01", "end": "2023-07-16"},
       "post-fire": {"start": "2023-07-28", "end": "2023-08-10"}
