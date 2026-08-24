@@ -153,7 +153,7 @@
         "buffer_m": 16000
       },
       "pre-fire": {"start": "2023-07-15", "end": "2023-07-28"},
-      "post-fire": {"start": "2023-08-03", "end": "2023-08-15"}
+      "post-fire": {"start": "2023-08-03", "end": "2023-08-25"}
     },
     "Rhodes 2023": {
       "name": "Rhodes 2023",
