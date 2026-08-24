@@ -65,9 +65,24 @@ def mask_s2_clouds(image):
     return image.updateMask(combined_masks)
     
 
-def get_median_composite(aoi, start_date, end_date, max_cloud_pct=5):
+# def get_median_composite(aoi, start_date, end_date, max_cloud_pct=5):
     
+#     collection = get_s2_collection(aoi, start_date, end_date, max_cloud_pct)
+#     img = collection.median()
+#     img = img.clip(aoi)
+#     return img
+
+def get_median_composite(aoi, start_date, end_date, max_cloud_pct=5):
     collection = get_s2_collection(aoi, start_date, end_date, max_cloud_pct)
-    img = collection.median()
+    
+    full_cover_collection = collection.filter(ee.Filter.contains(left='.geo', right=aoi))
+
+    final_collection = ee.Algorithms.If(
+        full_cover_collection.size().gt(0), 
+        full_cover_collection, 
+        collection
+    )
+    
+    img = ee.ImageCollection(final_collection).median()
     img = img.clip(aoi)
     return img
