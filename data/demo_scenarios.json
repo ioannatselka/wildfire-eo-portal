@@ -121,7 +121,7 @@
       "end_date": "October 02, 2024",
       "geometry": {
         "type": "point_buffer",
-        "lon": 22.48,
+        "lon": 22.44,
         "lat": 38.12,
         "buffer_m": 11000
       },
