@@ -4,7 +4,7 @@ Wildfire severity assessment tool using Sentinel-2 imagery and Google Earth Engi
 
 [Live app](https://wildfire-eo-app.streamlit.app/)
 
-The dashboard computes burn severity from pre/post-fire Sentinel-2 composites and reports burned area by severity class and land cover type. Built around three wildfire events in Greece, with support for arbitrary custom areas of interest.
+The dashboard computes burn severity from pre/post-fire Sentinel-2 composites and reports burned area by severity class and land cover type. Built around past wildfire events in Greece, with support for arbitrary custom areas of interest.
 
 ## Demo
 
