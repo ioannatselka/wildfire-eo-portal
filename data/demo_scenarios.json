@@ -188,10 +188,10 @@
       "end_date": "August 11, 2021",
       "geometry": {
         "type": "bbox",
-        "west": 23.13,
-        "south": 38.65,
-        "east": 23.52,
-        "north": 39.03
+        "west": 22.99,
+        "south": 38.56,
+        "east": 23.57,
+        "north": 39.07
       },
       "pre-fire": {"start": "2021-07-20", "end": "2021-08-02"},
       "post-fire": {"start": "2021-08-12", "end": "2021-08-25"}
